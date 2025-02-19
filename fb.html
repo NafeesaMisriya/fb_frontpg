@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="logo">
+            <a class="logot" href="https://facebook.com">facebook</a>
+            </div>
+        <div class="login">
+            <form>
+            <table class="logind">
+                <tbody>
+                    <tr>
+                    <td><label class="login-label">Email or Mobile</label></td>
+                    <td><label class="login-label">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"> </td>
+                        <td><input type="text"></td>
+                        <td><input id="loginb" type="submit" value="Login"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a class="forget" href="forgotten.html">Forgotten account?</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </form>
+        <div class="left">
+            <p id="qou">Facebook helps you connect and share with the people in your life.</p><br>
+            <img id="imag" width=500px  height=300px src="facebooknew.jpg" alt="">
+        </div>
+        <div class="right">
+            <h2 style="font-weight: bold;">Create an account</h2>
+            <p>It's quick and easy.</p>
+            <form class="signup-form" id="signup-form">
+            <input name="fname" class="det" type="text" placeholder="First name">
+            <input name="sname" class="det" type="text" placeholder="Surname"><br>
+            <input name="email_add" name="phonen" class="deta" type="text" placeholder="Mobile number or email address"><br>
+            <input name="password" class="deta" type="text" placeholder="New password"><br>
+            <label style="font-size: 15px; padding: 5px; color: rgb(88, 93, 93);">Birthday</label><br>
+            <select name="day" style="margin: 4px; color: rgb(32, 32, 31);" class="date">
+                    <option value="">Day</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+            </select>
+            <select name="month" style="margin: 4px; color: rgb(32, 32, 31);" class="date">
+                    <option value="">month</option>
+                    <option value="1">Jan</option>
+                    <option value="2">Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+            </select>
+            <select name="year" style="margin: 4px; color: rgb(32, 32, 31);" class="date">
+    
+                <option>1999</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+        </select> <label>?</label><br>
+
+            <label style="font-size: 15px; padding: 5px; color: rgb(88, 93, 93);">Gender</label><br>
+            <input name="gender" type="radio">
+            <label>Female</label>
+            <input name="gender" type="radio">
+            <label>Male</label>
+            <input name="gender" type="radio">
+            <label>Custom</label>
+            <p> Clicking sign Up,you agree to our Terms,data Policy <br>and Cookies Policy.You may recieve SMS notifications <br>from us and can opt at any time.<br></p>
+            <input id="sub" type="submit" value="Sign Up">
+
+        </div>
+    </form>
+        <div class="footer">
+
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
